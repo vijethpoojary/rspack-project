@@ -15,7 +15,7 @@ export default withZephyr()(
   defineConfig({
     context: __dirname,
     entry: {
-      main: "./src/main.tsx",
+      main: "./src/main.jsx",
     },
     resolve: {
       extensions: ["...", ".ts", ".tsx", ".jsx"],
